@@ -9,14 +9,15 @@ class User {
             
 }
 class Admin extends User{
-
+     constructor(){
+        super()
+    }
+    del(){
+        User=null;
+    }
 }
 
 let user = new User();
 let admin = new Admin();
 
-console.log(user);
-console.log(admin);
 
-    User=null;
-    user=null;
